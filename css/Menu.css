@@ -244,7 +244,7 @@ footer h4{
         position: relative;
         text-align: center;
         top: 5px;
-        left: 12px;
+        left: 0;
         display: block;
        
         
@@ -267,12 +267,17 @@ footer h4{
         display: inline-block;
         list-style: none;
         text-decoration: none;
-        position: relative;
-        left: 100px;
-        top: 8px;
+        position: static;
+        
 
         
        
+    }
+
+    .img{
+        display: block;
+        text-align: center;
+        margin: 6px auto;
     }
     
 }
