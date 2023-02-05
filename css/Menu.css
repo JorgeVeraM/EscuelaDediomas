@@ -1,0 +1,278 @@
+*,*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+   
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    font-weight: bold;
+    justify-content:space-around ;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+    transition: 1.5s;
+    
+    
+   
+
+}
+
+header.abajo{
+    background-color: white;
+  
+    
+  
+}
+
+
+.menu-phone{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    display: none;
+  
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+      
+}
+
+.logo{
+    width: 120px;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+
+
+.menu1 li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    left: 200px;
+    
+    
+   
+}
+
+.menu1 li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+.menu1 li a:hover{
+    color:  #FE3333;
+    transition: ease 0.80s;
+    
+}
+
+
+.img li {
+    display: inline-block;  
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    top: 8px;
+    
+}
+
+.img li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 2px;
+    color: #fff;
+    
+    
+}
+
+.img li a:hover {
+    color:  #FE3333;
+    transition: ease 0.80s;
+}
+
+
+.abajo ul li a {
+    color: #000;
+}
+
+.menu label i {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+/* footer */
+
+
+footer{
+    width: 100%;
+    background-color: #0A0A0A;
+    color: #fff;
+    
+
+  
+}
+
+.info{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer h3{
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+   
+}
+
+
+
+.logo-2 {
+    
+    width: 25%;
+}
+
+footer ul li {
+    display: inline-block;
+    
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 0;
+}
+
+footer ul li a:hover{
+    color: #FE3333;
+}
+
+
+footer .info p{
+    
+    margin: 10px auto 0;
+    padding: 0 0 10px;
+}
+
+
+footer h4 .p {
+   
+    color: #fff;
+    
+}
+
+footer h4{
+   
+    font-size: 14px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 840px) {
+ 
+    header{
+        
+        padding: 40px 40px;
+        background-color: #FE3333;
+     
+    }
+
+    
+     .menu-phone{
+        position: absolute;
+        right: 13px;
+        top: 40px;
+        border: none;
+        display: block;
+        color: #000;
+        font-size: 30px;
+        background-color: transparent;
+    
+  
+}
+
+
+   
+    .logo{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+    }
+
+    .menu{
+    
+        display: block;
+      
+        
+    }
+    .menu1 li {
+        
+        padding: 50px;
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        text-align: center;
+        top: 5px;
+        left: 12px;
+        display: block;
+       
+        
+
+    }
+
+    .menu1{
+        display: none;
+    }
+
+    .menu1.activado{
+        display: block;
+    }
+
+
+
+
+    .img li {
+        
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        left: 100px;
+        top: 8px;
+
+        
+       
+    }
+    
+}

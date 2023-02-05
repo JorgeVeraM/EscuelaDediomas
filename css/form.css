@@ -1,0 +1,207 @@
+
+.espacio{
+  width: 100%;
+  height: 200px;
+  background-color:#FF6767; 
+}
+
+
+.formulario{
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(./images/profe.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:  0 0 100px;
+}
+
+
+
+
+.cloud{
+    width: 940px;
+    padding: 120px 0;
+    margin: 0 auto;   
+}
+
+.cloud h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+form{
+    width: 940px;
+    padding: 100px 0 ;
+    background-color:rgba(5, 7, 12, 0.40);
+    margin:  0  auto;
+    text-align: center;
+    color: #FF6767;
+    font-size: 20px;
+    border:solid #FF6767;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;
+    border-width: 4px;
+  }
+
+  .nombre , .curso{
+    width: 70%;
+    margin: 0 auto 5%;
+    text-align: center;
+  }
+  
+  .nombre label {
+    display: block;
+  }
+
+  .nombre input{
+    width: 100%;
+    margin: 2% 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+  }
+
+  .centrado{
+    width: 70%;
+    margin: 0 auto;
+   
+  }
+
+  .correo{
+    width: 45%;
+    display: inline-block;
+    margin: 5% 3% 5% 3%;
+    text-align: center;
+  }
+
+  .correo label{
+    display: block;
+    margin: 5% 0;
+  }
+
+  .correo input{
+    width: 90%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+  }
+
+  .telefono{
+    width: 45%;
+    display: inline-block;
+    margin: auto 3% 0 0%;
+    text-align: center;
+  }
+
+  .telefono label{
+    display: block;
+    margin: 5% 0;
+    
+  }
+
+  .telefono input{
+    width: 90%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+  }
+
+
+  .curso {
+
+    width: 70%;
+    margin: 5% auto;
+    text-align: center;
+
+  }
+
+  .curso label{
+    display: block;
+    margin: 5% 0;
+    
+  }
+
+  .curso select{
+    width: 90%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+  }
+
+
+  
+  
+
+  
+  /* boton */
+  
+  
+  
+  .button {
+    --color: #FF6767;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+  
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: #fff;
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+
+
+   @media screen and (max-width:840px ) {
+    
+
+    .cloud, form{
+      width: auto;
+    }
+
+  
+   }
+   
+
